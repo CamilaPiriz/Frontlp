@@ -3,7 +3,27 @@ background-image: url(../Imagenes/wall.jpg);}
 h1{color:#DC7633}
 .C2{color: #145A32}
 .C3{color:#D35400 }
-header{background-color:#FADBD8 ;margin:20px 20px 20px 20px}
+header{background-color:#FADBD8 ;margin:20px 20px 20px 20px
+}
+.ban{ display: flex;
+  justify-content: flex-start;}
+.Titulo{display: flex;
+  justify-content: center;
+    flex-wrap: wrap;}
+.redes a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+  }
+  .redes{
+    display: flex;
+    justify-content: flex-end;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1999;
+}
 nav{background-color:#F5B7B1;margin: 2px 2px 2px 2px;}
 .Prov a img {width: 75px;
 height: 75px}
@@ -26,10 +46,16 @@ height: 600px;
 overflow: auto;}
 
 footer{background-color:#F5B7B1;
-display: flex;
-justify-content:space-evenly;}
+  display: flex; justify-content: space-around;
+}
 
+.mapafooter{
+  display: flex; align-items:flex-start;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 
+}
 .R{color:#DC7633; display: flex;justify-content:space-evenly
 }
 
@@ -85,5 +111,5 @@ justify-content:space-evenly;}
   z-index:1999;
 }
 .flex-container{
-  display: flex; justify-content:space-evenly
+  display: flex; justify-content:center;
 }
