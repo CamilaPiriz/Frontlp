@@ -1,17 +1,17 @@
  @font-face {
   font-family: "F1";
-  src: url( " ../FUENTES/f1.ttf")
+  src: url( " ../Fuentes/f1.ttf")
   format("truetype");
   }
 @font-face {
    font-family: "r";
-   src: url( " ../FUENTES/r.ttf")
+   src: url( " ../Fuentes/r.ttf")
    format("truetype");
    }
 
  @font-face {
     font-family: "texto";
-    src: url( " ../FUENTES/texto.ttf")
+    src: url( " ../Fuentes/texto.ttf")
     format("truetype");
       }
 body{background-color: #FEF9E7;
