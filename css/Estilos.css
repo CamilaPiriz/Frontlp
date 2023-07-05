@@ -1,3 +1,4 @@
+/*FUENTES*/
  @font-face {
   font-family: "F1";
   src: url( " ../Fuentes/f1.ttf")
@@ -14,6 +15,13 @@
     src: url( " ../Fuentes/texto.ttf")
     format("truetype");
       }
+
+      @font-face {
+       font-family: "CELULAR";
+       src: url( " ../Fuentes/f1.ttf")
+       format("truetype");
+       }
+  /*COLORS*/
 body{background-color: #FEF9E7;
 background-image: url(../Imagenes/wall.jpg);}
 .T{font-family:"r";
@@ -147,3 +155,24 @@ footer{background-color:#F5B7B1;
 }
 .informacion{font-family:"texto"
    }}
+
+/*MEDIAQUERIES*/
+/*TELEFONO MOVIL*/
+body{ font-size: 14px}
+@media(min-width:575px){
+  .CELULAR{display: none;}
+}
+/*Tablet*/
+@media(min-width:768px) {
+body{font-size:15px }
+}
+/*Escritorio Normales*/
+@media(min-width:992px){
+  body{font-size: 16px}
+
+  }
+
+/*Pantallas grandes*/
+@media(min-width:1200px){
+  body{font-size: 17px}
+}
