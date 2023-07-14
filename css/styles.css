@@ -6036,7 +6036,7 @@ textarea.form-control-lg {
   --bs-spinner-vertical-align: -0.125em;
   --bs-spinner-animation-speed: 0.75s;
   --bs-spinner-animation-name: spinner-grow;
-  background-color: currentcolor;
+  background-color: black ;
   opacity: 0;
 }
 
@@ -10895,11 +10895,6 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 10rem;
-}
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
 }
